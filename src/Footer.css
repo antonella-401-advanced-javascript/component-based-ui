@@ -1,0 +1,15 @@
+.Foot {
+  background-color: #faf0e6;
+  color: #141413;
+  width: 100%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 19pt;
+  
+  h1 {
+    display:inline-block;
+    position:relative;
+    justify-self: center;
+    width: 100%;
+  }
+}
