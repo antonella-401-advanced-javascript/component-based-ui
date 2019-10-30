@@ -3,26 +3,26 @@
 ### Author: Antonella Gutierrez
 
 ### Links and Resources
-* [submission PR](https://github.com/antonella-401-advanced-javascript/lab-12/pull/1)
-* [travis](https://travis-ci.com/antonella-401-advanced-javascript/lab-12/builds/131238678)
+* [submission PR](https://github.com/antonella-401-advanced-javascript/component-based-ui/pull/1)
+* [travis](https://travis-ci.com/antonella-401-advanced-javascript/component-based-ui?utm_medium=notification&utm_source=email)
 
-###  Socket
-* `reader.js`
-  * Accepts a filename as a command line parameter
-  * Reads the file from the file system
-* `capitalizer.js`
-  * Converts it's contents to upper case
-* `writer.js`
-  * Writes it back to the file system
-* `server.js`
-  * broadcasts and listens to `reader.js`, `capitalizer.js`, and `writer.js`
+###  Components
+* `Header.js`
+  * This component will generate header
+* `Footer.js`
+  * This component will generate footer
+* `Character.js`
+  * This component will generate a character
+  * takes `img, name, species`
+* `App.js`
+  * This component renders all other components
 
 ### Setup
 #### .env requirements
-* PORT - 3000
+* PORT - 7890
 #### Running the app
-* npm start
-* npm start:watch
+* npm run build
+* npm run start
 #### Tests
-* Unit Tests: npm test
+* Unit Tests: npm run test
 * Lint Tests: npm run lint
